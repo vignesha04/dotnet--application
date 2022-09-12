@@ -1,0 +1,6 @@
+services:
+  demo_site_dotnet:
+    container_name: demo_site_dotnet
+    image: demosite-dotnet
+    ports:
+      - 9002:80
